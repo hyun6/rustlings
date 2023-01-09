@@ -3,9 +3,9 @@
 // Execute `rustlings hint enums3` or use the `hint` watch subcommand for a hint.
 
 enum Message {
-    ChangeColor((u8, u8, u8)),
+    ChangeColor((u8, u8, u8)), // tuple
     Echo(String),
-    Move(Point),
+    Move(Point), // struct
     Quit,
 }
 
